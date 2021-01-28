@@ -52,6 +52,16 @@
         "ts": "never",
         "tsx": "never"
       }
+    ],
+    "@typescript-eslint/ban-types": [
+      "error",
+      {
+        "types": {
+          // add a custom message to help explain why not to use it
+          "object": false
+        },
+        "extendDefaults": true
+      }
     ]
   },
   "settings": {
